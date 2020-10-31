@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'ALS_Hauss_Regular';
+	src: url('../fonts/ALS_Hauss_Regular_2.1.eot');
+	src: local('вє'), url('../fonts/ALS_Hauss_Regular_2.1.woff') format('woff'), url('../fonts/ALS_Hauss_Regular_2.1.ttf') format('truetype'), url('../fonts/ALS_Hauss_Regular_2.1.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ALS_Hauss_Medium';
+	src: url('../fonts/ALS_Hauss_Medium_2.1.eot');
+	src: local('вє'), url('../fonts/ALS_Hauss_Medium_2.1.woff') format('woff'), url('../fonts/ALS_Hauss_Medium_2.1.ttf') format('truetype'), url('../fonts/ALS_Hauss_Medium_2.1.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Navigo-Regular';
+	src: url('../fonts/Navigo-Regular-Desktop.eot');
+	src: local('вє'), url('../fonts/Navigo-Regular-Desktop.woff') format('woff'), url('../fonts/Navigo-Regular-Desktop.ttf') format('truetype'), url('../fonts/Navigo-Regular-Desktop.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Navigo-Bold';
+	src: url('../fonts/Navigo-Bold-Desktop.eot');
+	src: local('вє'), url('../fonts/Navigo-Bold-Desktop.woff') format('woff'), url('../fonts/Navigo-Bold-Desktop.ttf') format('truetype'), url('../fonts/Navigo-Bold-Desktop.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Navigo-Black';
+	src: url('../fonts/Navigo-Black-Desktop.eot');
+	src: local('вє'), url('../fonts/Navigo-Black-Desktop.woff') format('woff'), url('../fonts/Navigo-Black-Desktop.ttf') format('truetype'), url('../fonts/Navigo-Black-Desktop.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+

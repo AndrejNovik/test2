@@ -1,0 +1,124 @@
+.convenient {
+	text-align: center;
+	background-color: #424548;
+	padding: 70px 0;
+}
+.convenient__title {
+	color: #ffffff;
+	margin: 0 0 20px 0;
+}
+.convenient__subtitle {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	max-width: 440px;
+	margin: 0 auto 40px auto;
+}
+.convenient__slider {
+	min-width: 0;
+	margin: 0 0 70px 0;
+}
+.convenient__item {
+	height: 380px;
+	padding: 60px 24px 0 24px;
+	border-radius: 14px;
+	background-color: #2b2d33;
+	margin: 0 0 0 50px;
+}
+.convenient__item:first-child {
+	margin: 0;
+}
+.convenient__item img{
+	width: 100%;
+	height: 100%;
+}
+.convenient__button {
+	width: 265px;
+	height: 54px;
+	border-radius: 10px;
+	background-color: #fee600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #2b2d33;
+	font-size: 18px;
+	font-family: 'ALS_Hauss_Medium';
+	line-height: 24px;
+	margin: 0 auto;
+}
+@media (max-width: 1260px) {
+	.convenient__slider {
+		min-width: 0;
+		max-width: 850px;
+		margin: 0 auto 70px auto;
+	}
+	.convenient__item {
+		height: 300px;
+		padding: 60px 24px 0 24px;
+		border-radius: 14px;
+		background-color: #2b2d33;
+		margin: 0 0 0 30px;
+	}
+}
+@media (max-width: 992px) {
+	.convenient__slider {
+		max-width: 660px;
+	}
+	.convenient__item {
+		height: 320px;
+		padding: 40px 24px 0 24px;
+	}
+}
+@media (max-width: 767px) {
+	.convenient {
+		padding: 50px 0;
+	}
+	.convenient__title {
+		font-size: 35px;
+	}
+	.convenient__slider {
+		min-width: 0;
+		max-width: 500px;
+		margin: 0 auto 70px auto;
+	}
+	.convenient__item {
+		height: 350px;
+		padding: 40px 24px 0 24px;
+		border-radius: 14px;
+		background-color: #2b2d33;
+		margin: 0 0 0 30px;
+	}
+}
+@media (max-width: 630px) {
+	.convenient__slider {
+		min-width: 0;
+		max-width: 300px;
+		margin: 0 auto 70px auto;
+	}
+	.convenient__item {
+		height: 380px;
+		padding: 40px 24px 0 24px;
+		border-radius: 14px;
+		background-color: #2b2d33;
+		margin: 0 0 0 30px;
+	}
+}
+@media (max-width: 500px) {
+	.convenient__title {
+		font-size: 30px;
+		line-height: 36px;
+		max-width: 300px;
+		margin: 0 auto 20px auto;
+	}
+	.convenient__subtitle {
+		max-width: 300px;
+		margin: 0 auto 30px auto;
+		font-size: 16px;
+		line-height: 21px;
+	}
+	.convenient__slider {
+		min-width: 0;
+		margin: 0 auto 50px auto;
+	}
+}

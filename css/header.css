@@ -1,0 +1,95 @@
+body{
+	height: 100%;
+	font-family: 'ALS_Hauss_Regular';
+}
+.wrapper{
+	
+}
+.container{
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.header {
+	background-color: #ffffff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 2;
+}
+.header__content{
+	height: 80px;
+	max-width: 1380px;
+	padding: 20px 15px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.header__logo {
+	position: relative;
+}
+.header__logo:before {
+	content: '';
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	top: 0;
+	right: -33px;
+	background-color: #e1e1e3;
+}
+.header__logo img{
+	width: 100%;
+}
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 0 0 70px;
+}
+.header__contacts-img{
+	display: none;
+}
+.header__visa img{
+	width: 100%;
+}
+.header__contacts {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 50%;
+	text-align: right;
+}
+.header__phone-number {
+	color: #2b2d33;
+	font-size: calc(20px);
+	margin: 0 0 10px 0;
+}
+.header__phone-number:hover {
+	text-decoration: underline;
+}
+.header__free {
+	color: #808185;
+	line-height: 0;
+}
+@media (max-width: 767px) {
+	.header__body {
+		padding: 0 0 0 55px;
+	}
+	.header__contacts {
+		display: none;
+	}
+	.header__contacts-img{
+		display: block;
+	}
+	.header__logo:before {
+		right: -25px;
+	}
+}
+@media (max-width: 375px) {
+	.header__body {
+		padding: 0 0 0 40px;
+	}
+	.header__logo:before {
+		right: -20px;
+	}
+}
